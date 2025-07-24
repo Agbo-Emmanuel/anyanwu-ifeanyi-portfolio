@@ -149,7 +149,10 @@ body{
     width: 100%;
     height: max-content;
     padding: 100px 200px;
-    background-color: #457B9D;
+    /* background-color: #457B9D; */
+    background: 
+        linear-gradient(rgba(69, 123, 157, 0.485), rgb(69, 123, 157)),
+        url('./images/about_image.jpg') center/cover no-repeat;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     display: flex;
@@ -252,7 +255,7 @@ body{
 
 .about_image{
     width: 48%;
-    height: 450px;
+    height: 650px;
     background-color: rgb(230, 230, 230);
     border-radius: 6px;
 }
@@ -405,6 +408,14 @@ body{
     width: 100%;
     padding: 0px 16px;
     position: relative;
+}
+
+.image_carousel_body h1{
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .project_image_carousel_section{
